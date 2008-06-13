@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:gravity="center_horizontal" android:padding="10px"
+	android:background="#ffffff">
+
+	<TextView android:id="@+id/intro_blurb_criteria"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_marginLeft="10px"
+		android:layout_marginBottom="15px" style="@style/intro_blurb"
+		android:text="@string/intro_blurb_criteria" />
+
+	<TextView android:id="@+id/location_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/intro_blurb_criteria"
+		android:layout_marginLeft="10px" android:layout_marginBottom="5px"
+		style="@style/label" android:text="@string/location_label" />
+	<EditText android:id="@+id/location"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/location_label"
+		android:layout_marginLeft="10px" android:layout_marginBottom="5px"
+		style="@style/edit_text" />
+
+	<TextView android:id="@+id/cuisine_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/location" android:layout_marginLeft="10px"
+		android:layout_marginBottom="5px" style="@style/label"
+		android:text="@string/cuisine_label" />
+	<Spinner android:id="@+id/cuisine"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/cuisine_label"
+		android:layout_marginLeft="10px" android:layout_marginBottom="5px" />
+
+	<TextView android:id="@+id/rating_label"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/cuisine" android:layout_marginLeft="10px"
+		android:layout_marginBottom="5px" style="@style/label"
+		android:text="@string/rating_label" />
+	<Spinner android:id="@+id/rating" android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_below="@id/rating_label"
+		android:layout_marginLeft="10px" android:layout_marginBottom="5px" />
+
+</RelativeLayout>
