@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<array name="cuisines">		       
+		<item>ANY</item>		       
+		<item>American</item>		       
+		<item>Barbeque</item>		       
+		<item>Chinese</item>		       
+		<item>French</item>
+		<item>German</item>
+		<item>Indian</item>		       
+		<item>Italian</item>		       
+		<item>Mexican</item>
+		<item>Thai</item>		       
+		<item>Vegetarian</item>		       
+		<item>Kosher</item>		   
+	</array>
+	<array name="ratings">		       
+		<item>ALL</item>		       
+		<item>1</item>		       
+		<item>2</item>		       
+		<item>3</item>		       
+		<item>4</item>
+		<item>5</item>		   
+	</array>
+</resources>
+
