@@ -1,0 +1,5 @@
+![http://www.openhandsetalliance.com/images/android_big_thumb.gif](http://www.openhandsetalliance.com/images/android_big_thumb.gif)
+
+This is the home for the Boston University course on open source development for mobile applications using the Google Android software stack. This project focused course (currently MET CS 893) will cover the process, tools, techniques, development methodologies, social aspects and licensing issues involved with developing open source products. It will use Google Android and Eclipse as the base development environment. Students groups will develop mobile based applications for this course. This course is being offered in the summer of 2008.
+
+![http://code.google.com/android/goodies/wallpaper/android-wallpaper1_thumbnail.png](http://code.google.com/android/goodies/wallpaper/android-wallpaper1_thumbnail.png)
